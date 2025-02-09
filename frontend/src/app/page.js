@@ -33,7 +33,7 @@ export default function Home() {
 
     // Simulating AI response (replace with actual API call)
     setTimeout(() => {
-      setMessages([...newMessages, { role: "ai", content: "This is a simulated AI response." }])
+      setMessages([...newMessages, { role: "ai", content: "I will help you with finding the best memecoins, ai, defi, zk project coins to invest in and if you instruct me to, I can invest in them, to get the most profit for you." }])
     }, 1000)
   }
 
