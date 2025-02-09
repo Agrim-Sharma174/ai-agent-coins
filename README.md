@@ -1,5 +1,6 @@
 # Trendy-Tokens-AI 🚀
 
+![Trendy Token Logo](https://ethglobal.b-cdn.net/projects/hzqfk/logo/default.jpg)
 Never miss a profit just because you missed the trend! Our AI agent scrapes platforms like Twitter & CoinGecko to find trending tokens in Meme, DeFi, ZK & AI—then invests for you! 
 
 ## 🌟 Features
