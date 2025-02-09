@@ -1,63 +1,204 @@
-# CDP AgentKit LangChain Extension Examples - Chatbot Typescript
+# Trendy-Tokens-AI 🚀
 
-This example demonstrates an agent setup as a terminal style chatbot with access to the full set of CDP AgentKit actions.
+Never miss a profit just because you missed the trend! Our AI agent scrapes platforms like Twitter & CoinGecko to find trending tokens in Meme, DeFi, ZK & AI—then invests for you! 
 
-## Ask the chatbot to engage in the Web3 ecosystem!
+## 🌟 Features
 
-- "Transfer a portion of your ETH to a random address"
-- "What is the price of BTC?"
-- "Deploy an NFT that will go super viral!"
-- "Deploy an ERC-20 token with total supply 1 billion"
+- **Real-time Market Analysis**: 
+  - Automated tracking of top tokens across multiple categories
+  - Price movement analysis
+  - Volume and market cap monitoring
+  - Risk level assessment
+- **Smart Investment Strategies**:
+  - Category-specific analysis (Meme, DeFi, AI, ZK)
+  - Liquidity scoring
+  - Automated trading with slippage protection
+  - Portfolio risk management
+- **Trend Detection**:
+  - Real-time keyword monitoring
+  - Social sentiment analysis
+  - Viral trend prediction
+  - Early memecoin opportunity identification
+- **Autonomous Operations**:
+  - Self-executing trading strategies
+  - Continuous market monitoring
+  - Automated decision making
+  - Risk-adjusted position sizing
 
-## Prerequisites
+---
+We have uploaded our framework on Autonome, but need approval from the autonome team.
+Here it is
+![Autonome_Screenshot](./Screenshot 2025-02-09 232415.png)
+As soon as it is approved, we can get our API and we can integrate it will our frontend deployed here: [Frontend Deployed Link]([https://example.com](https://ai-agent-coins.vercel.app/))
+---
 
-### Checking Node Version
+## 🛠️ Technical Architecture
 
-Before using the example, ensure that you have the correct version of Node.js installed. The example requires Node.js 18 or higher. You can check your Node version by running:
+### Backend Components
 
+- **Agent System**: Built with Coinbase AgentKit
+  - Custom action providers for each token category
+  - Autonomous and interactive chat modes
+  - Memory management system
+  - Real-time stream processing
+
+- **Market Analysis Engine**:
+  - Risk level assessment algorithm
+  - Liquidity ratio calculation
+  - Volatility monitoring
+  - Market depth analysis
+
+- **Smart Contract Integration**:
+  - Automated swap transactions
+  - ERC-20 token deployment
+  - Balance management
+  - Security checks
+
+### Frontend Application
+Deployed at: [Frontend Deployed Link]([https://example.com](https://ai-agent-coins.vercel.app/))
+
+Built with Next.js and Tailwind CSS, offering:
+- Responsive dashboard interface
+- Real-time market data visualization
+- Portfolio management tools
+- Transaction history tracking
+- Trend analysis charts
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+#### Node.js Installation
+Ensure you have Node.js 18 or higher installed:
 ```bash
 node --version
 ```
 
-If you don't have the correct version, you can install it using [nvm](https://github.com/nvm-sh/nvm):
-
+If you need to upgrade, use nvm:
 ```bash
 nvm install node
 ```
 
-This will automatically install and use the latest version of Node.
+#### Required API Keys
+```
+CDP_API_KEY_NAME=your_key_name
+CDP_API_KEY_PRIVATE_KEY=your_private_key
+OPENAI_API_KEY=your_openai_key
+COINGECKO_API_KEY=your_coingecko_key
+APIFY_KEYWORDS_API_KEY=your_apify_key
+```
 
-### API Keys
+### Installation
 
-You'll need the following API keys:
-- [CDP API Key](https://portal.cdp.coinbase.com/access/api)
-- [OpenAI API Key](https://platform.openai.com/docs/quickstart#create-and-export-an-api-key)
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/trendy-tokens-ai.git
+cd trendy-tokens-ai
+```
 
-Once you have them, rename the `.env-local` file to `.env` and make sure you set the API keys to their corresponding environment variables:
-
-- "CDP_API_KEY_NAME"
-- "CDP_API_KEY_PRIVATE_KEY"
-- "OPENAI_API_KEY"
-
-## Running the example
-
-From the root directory, run:
-
+2. Install dependencies:
 ```bash
 npm install
+```
+
+3. Build the project:
+```bash
 npm run build
 ```
 
-This will install the dependencies and build the packages locally. The chatbot example uses the local `@coinbase/agentkit-langchain` and `@coinbase/agentkit` packages. If you make changes to the packages, you can run `npm run build` from root again to rebuild the packages, and your changes will be reflected in the chatbot example.
+### Running the Application
 
-Now from the `typescript/examples/langchain-cdp-chatbot` directory, run:
-
+#### Backend Agent
 ```bash
+cd backend
 npm start
 ```
 
-Select "1. chat mode" and start telling your Agent to do things onchain!
+Select your preferred mode:
+- Chat mode: Interactive command interface
+- Auto mode: Autonomous trading operations
 
-## License
+#### Frontend Dashboard
+```bash
+cd frontend
+npm run dev
+```
+
+Access the dashboard at `http://localhost:3000`
+
+## 💡 Usage Examples
+
+### Agent Commands
+
+```bash
+# Market Analysis
+"Analyze top 10 AI tokens"
+"Check DeFi trends in the last 24 hours"
+"Show me trending ZK projects"
+
+# Investment Operations
+"Invest 0.5 ETH in trending meme tokens"
+"Set up a portfolio across all categories"
+"Monitor viral keywords for potential memecoins"
+
+# Token Deployment
+"Deploy an ERC-20 based on trending keyword X"
+"Create a memecoin with viral potential"
+```
+
+### Risk Management Features
+
+The system employs sophisticated risk assessment:
+- Liquidity Ratio Analysis: `volume/marketCap`
+- Risk Level Categories:
+  - VERY_HIGH: Low liquidity (<5%) or high volatility (>50%)
+  - HIGH: Moderate liquidity (5-10%) or significant volatility (30-50%)
+  - MEDIUM: Good liquidity (10-15%) or normal volatility (20-30%)
+  - LOW: Excellent liquidity (>15%) and stable price action
+
+## 🔧 Technical Implementation
+
+### Agent Configuration
+- Implements CDP AgentKit with custom action providers
+- Uses LangChain for natural language processing
+- Maintains persistent wallet data
+- Implements memory management for conversation context
+
+### Trading Logic
+- Slippage protection mechanisms
+- Balance verification before trades
+- Transaction failure handling
+- Automated position sizing
+
+### Market Analysis
+- Multi-category trend analysis
+- Volume-based liquidity scoring
+- Price movement tracking
+- Social sentiment integration
+
+## ⚠️ Security Features
+
+- Contract verification
+- Balance checks
+- Slippage protection
+- Risk level assessment
+- Transaction monitoring
+
+## 📝 License
 
 Apache-2.0
+
+## 🤝 Contributing
+
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
+
+## 📞 Contact & Support
+
+- GitHub Issues: Create an issue in this repository
+- Discord: [Join our community](Coming Soon)
+- Twitter: [@TrendyTokensAI](Coming Soon)
+- Email: support@trendytokens.ai
+
+---
+
+Built with 💙 by the Trendy-Tokens-AI Team
