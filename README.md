@@ -29,7 +29,7 @@ Never miss a profit just because you missed the trend! Our AI agent scrapes plat
 We have uploaded our framework on Autonome, but need approval from the autonome team.
 Here it is
 ![Autonome_Screenshot](./Autonome_approval_pending.png)
-As soon as it is approved, we can get our API and we can integrate it will our frontend deployed here: [Frontend Deployed Link]([https://example.com](https://ai-agent-coins.vercel.app/))
+As soon as it is approved, we can get our API and we can integrate it will our frontend deployed here: [Frontend Deployed Link](https://ai-agent-coins.vercel.app/)
 ---
 
 ## 🛠️ Technical Architecture
@@ -55,7 +55,7 @@ As soon as it is approved, we can get our API and we can integrate it will our f
   - Security checks
 
 ### Frontend Application
-Deployed at: [Frontend Deployed Link]([https://example.com](https://ai-agent-coins.vercel.app/))
+Deployed at: [Frontend Deployed Link](https://ai-agent-coins.vercel.app/)
 
 Built with Next.js and Tailwind CSS, offering:
 - Responsive dashboard interface
