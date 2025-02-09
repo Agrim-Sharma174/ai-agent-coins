@@ -28,7 +28,7 @@ Never miss a profit just because you missed the trend! Our AI agent scrapes plat
 ---
 We have uploaded our framework on Autonome, but need approval from the autonome team.
 Here it is
-![Autonome_Screenshot](./Screenshot 2025-02-09 232415.png)
+![Autonome_Screenshot](./Autonome_approval_pending.png)
 As soon as it is approved, we can get our API and we can integrate it will our frontend deployed here: [Frontend Deployed Link]([https://example.com](https://ai-agent-coins.vercel.app/))
 ---
 
